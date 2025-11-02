@@ -31,13 +31,14 @@ public class VirtualPiano {
 		MusicManager.init();
 		
 		// intro message box
-		/*JOptionPane.showMessageDialog(null, "Tips:\nSpacebar = pedal",
-				"Ready?", JOptionPane.INFORMATION_MESSAGE);*/
+		JOptionPane.showMessageDialog(null, "Tips:\nSpacebar = pedal",
+				"Ready?", JOptionPane.INFORMATION_MESSAGE);
 		
 		// create and show the main dialog
 		MainFrame mainFrame = new MainFrame();
 		
 		mainFrame.setVisible(true);
+               // MusicManager.getInstance().play(sequence);
 		
 		// TODO
 	}
