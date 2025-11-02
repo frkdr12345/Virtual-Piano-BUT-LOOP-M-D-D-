@@ -10,6 +10,8 @@ This program is running in Java Virtual Machine, using Java MIDI library.
 How to run
 ----------
 Don't worry, you're not required to compile code :)
+First, download  [this](<https://www.tobias-erichsen.de/software/loopmidi.html>)
+and create a port named “loopMIDI Port 2” and you're done :D
 
 Simply save this file from the source tree, and run:  `out/VirtualPiano.jar`
 
@@ -34,6 +36,7 @@ zsxdcvgbhnjm           = C C# D ... through B, first octave
 (1st and 2nd rows of qwerty keyboard)
 q2w3er5t6y7u           = C C# D ... through B, second octave
 i9o0p[=] BKSPC BKSLASH = C C# D ... through A, third octave
+I recommend using a US keyboard.
 
 spacebar               = sustain pedal
 
